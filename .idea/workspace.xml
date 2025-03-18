@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad459b06-bb75-4885-9ac7-feb3e6e5ce78" name="Changes" comment="" />
+    <list default="true" id="ad459b06-bb75-4885-9ac7-feb3e6e5ce78" name="Changes" comment="Утилита &quot;поиск файлов&quot;. Поиск файла и запись его в лог.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/ArgsName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,28 +35,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/user/IdeaProjects/job4j_finder",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/IdeaProjects/job4j_finder&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.Main" />
+      <module name="job4j_design" />
+      <option name="PROGRAM_PARAMETERS" value="-d=$USER_HOME$ -n=test_job4j_finder.txt -t=mask -o=data/log.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -108,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739964375027</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Утилита &quot;поиск файлов&quot;. Создал репозиторий job4j_finder">
+      <created>1739964472686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739964472686</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Утилита &quot;поиск файлов&quot;. Создал репозиторий job4j_finder">
+      <created>1739964493514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739964493514</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -152,6 +180,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Утилита &quot;поиск файлов&quot;. Создал репозиторий job4j_finder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Утилита &quot;поиск файлов&quot;. Создал репозиторий job4j_finder" />
+    <MESSAGE value="Утилита &quot;поиск файлов&quot;. Поиск файла и запись его в лог." />
+    <option name="LAST_COMMIT_MESSAGE" value="Утилита &quot;поиск файлов&quot;. Поиск файла и запись его в лог." />
   </component>
 </project>
