@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad459b06-bb75-4885-9ac7-feb3e6e5ce78" name="Changes" comment="Утилита &quot;поиск файлов&quot;. Поиск файла и запись его в лог.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/ArgsName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/Finder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/ArgsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/ArgsName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +61,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.Finder" />
       <module name="job4j_design" />
-      <option name="PROGRAM_PARAMETERS" value="-d=$USER_HOME$ -n=test_job4j_finder.txt -t=mask -o=data/log.txt" />
+      <option name="PROGRAM_PARAMETERS" value="-d=$PROJECT_DIR$/.. -n=.*finder_test.txt -t=regex -o=data/log.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739964493514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Утилита &quot;поиск файлов&quot;. Поиск файла и запись его в лог.">
+      <created>1742318966359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742318966359</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
